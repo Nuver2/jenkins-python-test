@@ -5,7 +5,7 @@ opipeline {
         stage('Checkout') {
             steps {
                 script {
-                    git 'https://github.com/Nuver2/jenkins-python-test.git'
+                    git clone 'git@github.com:Nuver2/jenkins-python-test.git'
                 }
             }
         }
